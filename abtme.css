@@ -1,4 +1,34 @@
 /* About Section */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  height: 7.5vh; 
+width: 100%;
+padding-left: 3px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  height: 7.5vh;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00b4d8;
+  height: 7.5vh;
+  color: white;
 .about-section {
     background-color: #f9f9f9;
     padding: 50px 20px;
